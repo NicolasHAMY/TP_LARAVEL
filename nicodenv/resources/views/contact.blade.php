@@ -1,1 +1,0 @@
-Salut c'est {{ $username }}

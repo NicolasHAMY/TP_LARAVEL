@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('contact', 'PagesController@contact');
+
+Route::get('/contact2', function () {
+    return view('contact2');
+});
