@@ -73,6 +73,10 @@
                 background-color: #202dcb;
             }
 
+            .font-blue-purple{
+                background: linear-gradient(#4A3392,#202dcb);
+            }
+
             .white{
                 color: #ffffff;
             }
@@ -99,11 +103,14 @@
 
             }
             .live-box{
-                padding: 50px 0px;
+                padding: 00px 0px;
+                margin: 50px 0px;
+
             }
             #social{
                 height: 10%;
                 width: 100%;
+                margin-bottom: 50px;
             }
             .subtitle{
                 width: 25%;
@@ -111,6 +118,7 @@
                 margin: 0 auto!important;
                 padding: 10px 10px;
                 border-radius: 40px;;
+                background: linear-gradient(#202dcb,#4A3392);
             }
 
             .img-social-networks{
@@ -124,7 +132,7 @@
             }
 
             #footer{
-                background-color: #4A3392;
+                background: linear-gradient(#202dcb,#4A3392);
                 height: 50px;
                 position: absolute;
                 bottom: 0;
@@ -158,7 +166,7 @@
                 </div>
             @endif
 -->         <header>
-                <div id="banner" class="purple">
+                <div id="banner" class="font-blue-purple">
                     <h1 class="title-banner flex-center" >Nicodenv</h1>
                 </div>
 
@@ -177,12 +185,13 @@
                         </ul>
                     </div>
                 </nav>
+
             </header>
 
             <div class="content">
 
-                <div class="container live-box">
-                    <div class="row flex-center">
+                <div class="container">
+                    <div class="row flex-center live-box">
                         <div class="stream-box">
                             <iframe src="https://player.twitch.tv/?channel=nicodenv" frameborder="0" allowfullscreen="true" scrolling="no" height="500" width="720"></iframe>
                         </div>
