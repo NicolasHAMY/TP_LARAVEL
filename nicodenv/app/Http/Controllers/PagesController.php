@@ -7,8 +7,8 @@ use Illuminate\Support\Facades\Mail;
 
 class PagesController extends Controller
 {
-    public function contact(){
-    Mail::send(['text'=>'contact'], ['username' => 'test'], function($message){
+    public function message(){
+    Mail::send(['text'=>'message'], ['username' => 'test'], function($message){
     $message->to('boubou.saumon@hotmail.fr')->subject('Contact');
     });
     }
