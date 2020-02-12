@@ -95,6 +95,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                     <a href="https://github.com/laravel/laravel">Pognon</a>
                     <a href="{{ url('/contact') }}">Telephone rose</a>
+                    <?php va_d
                 </div>
             </div>
         </div>

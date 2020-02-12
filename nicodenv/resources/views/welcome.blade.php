@@ -16,7 +16,8 @@
             html, body {
                 background-color: #3C3636;
                 color: #ffffff;
-                font-family: 'Nunito', sans-serif;
+                font-family:'work', sans-serif ;
+
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -79,11 +80,14 @@
                 color: #202dcb;
             }
             #banner{
-                height: 100px;
+                height: 75px;
                 width: 100%;
             }
             .title-banner{
-                padding: 26px 0px;
+                padding: 15px 0px;
+            }
+            .navbar{
+                height: 40px;
             }
             .stream-box{
                 padding: 0px 0px;
@@ -102,21 +106,39 @@
                 width: 100%;
             }
             .subtitle{
-                width: 20%;
+                width: 25%;
                 text-align: center;
-                margin: 0 auto;
-                margin-top: 0px;
-                padding: 10px 20px;
+                margin: 0 auto!important;
+                padding: 10px 10px;
+                border-radius: 40px;;
             }
 
             .img-social-networks{
                 max-width: 50px;
-               margin: 0px 30px;
+                margin: 0px 30px;
+                cursor: pointer;
             }
 
             .social-networks{
                 margin: 20px 0px;
             }
+
+            #footer{
+                background-color: #4A3392;
+                height: 50px;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+
+            div.subtitle p{
+                margin: 0;
+            }
+
+            a{
+                cursor: pointer;
+            }
+
         </style>
     </head>
     <body>
@@ -135,9 +157,7 @@
                     @endauth
                 </div>
             @endif
--->
-            <div class="content">
-
+-->         <header>
                 <div id="banner" class="purple">
                     <h1 class="title-banner flex-center" >Nicodenv</h1>
                 </div>
@@ -148,18 +168,21 @@
                             <li class="nav-item active">
                                 <a class="nav-link white" href="{{ url('/') }}">STREAM<span class="sr-only">(current)</span></a>
                             </li><!--
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Planning</a>
+                                    </li>-->
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Planning</a>
-                            </li>-->
-                            <li class="nav-item">
-                                <a class="nav-link white" href="{{ url('/contact') }}">Contact</a>
+                                <a class="nav-link white" href="{{ url('/contact') }}">CONTACT</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
+            </header>
+
+            <div class="content">
 
                 <div class="container live-box">
-                    <div class="row">
+                    <div class="row flex-center">
                         <div class="stream-box">
                             <iframe src="https://player.twitch.tv/?channel=nicodenv" frameborder="0" allowfullscreen="true" scrolling="no" height="500" width="720"></iframe>
                         </div>
@@ -167,19 +190,24 @@
                             <iframe src="https://www.twitch.tv/embed/nicodenv/chat" frameborder="0" scrolling="no" height="500" width="350"></iframe>
                         </div>
                     </div>
+
                 </div>
 
                 <div id="social">
                     <div class="subtitle font-blue">
-                    <p class=white">Rejoignez moi sur les réseaux sociaux !</p>
+                    <p>Rejoignez moi sur les réseaux sociaux !</p>
                     </div>
                     <div class="social-networks">
-                        <img src="./images/twitter.png" class="img-social-networks">
-                        <img src="./images/instagram.png" class="img-social-networks">
-                        <img src="./images/youtube.png" class="img-social-networks">
-                        <img src="./images/twitch.png" class="img-social-networks">
+                        <a href="https://twitter.com/Nicodenv" target="_blank"><img src="./images/twitter.png" class="img-social-networks"></a>
+                        <a href="https://www.instagram.com/nicodenv/" target="_blank"><img src="./images/instagram.png" class="img-social-networks"></a>
+                        <a href="https://www.youtube.com/user/nicodenv" target="_blank"><img src="./images/youtube.png" class="img-social-networks"></a>
+                        <a href="https://www.twitch.tv/nicodenv" target="_blank"><img src="./images/twitch.png" class="img-social-networks"></a>
                     </div>
                 </div>
+
+                <footer id="footer">
+
+                </footer>
             </div>
         <!--</div> -->
     </body>
