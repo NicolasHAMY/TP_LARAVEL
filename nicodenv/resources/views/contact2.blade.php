@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Home</title>
+        <title> Prise de Contact</title>
+
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
 
         <!-- Styles -->
         <style>
@@ -84,39 +84,7 @@
             }
             .title-banner{
                 padding: 26px 0px;
-            }
-            .stream-box{
-                padding: 0px 0px;
-
-
-            }
-            .chat-box{
-                padding: 0;
-
-            }
-            .live-box{
-                padding: 50px 0px;
-            }
-            #social{
-                height: 10%;
-                width: 100%;
-            }
-            .subtitle{
-                width: 20%;
-                text-align: center;
-                margin: 0 auto;
-                margin-top: 0px;
-                padding: 10px 20px;
-            }
-
-            .img-social-networks{
-                max-width: 50px;
-               margin: 0px 30px;
-            }
-
-            .social-networks{
-                margin: 20px 0px;
-            }
+                        }
         </style>
     </head>
     <body>
@@ -158,29 +126,31 @@
                     </div>
                 </nav>
 
-                <div class="container live-box">
-                    <div class="row">
-                        <div class="stream-box">
-                            <iframe src="https://player.twitch.tv/?channel=nicodenv" frameborder="0" allowfullscreen="true" scrolling="no" height="500" width="720"></iframe>
-                        </div>
-                        <div class="chat-box">
-                            <iframe src="https://www.twitch.tv/embed/nicodenv/chat" frameborder="0" scrolling="no" height="500" width="350"></iframe>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="social">
-                    <div class="subtitle font-blue">
-                    <p class=white">Rejoignez moi sur les réseaux sociaux !</p>
-                    </div>
-                    <div class="social-networks">
-                        <img src="./images/twitter.png" class="img-social-networks">
-                        <img src="./images/instagram.png" class="img-social-networks">
-                        <img src="./images/youtube.png" class="img-social-networks">
-                        <img src="./images/twitch.png" class="img-social-networks">
-                    </div>
-                </div>
-            </div>
+        <div class="but">
+            <img src="..\..\Maquettes\Images Pour Maquettage\Nico.png" id="photo_nico">
+                <div id="text">
+                <div>
+        <div>
+        
+    <form>
+      <div class="form-group">
+        <label for="name">Entre ton nom : </label>
+        <input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Ton nom">
+      </div>
+      <div class="form-group">
+        <label for="surname">Entre ton prénom : </label>
+        <input type="password" class="form-control" id="surname" placeholder="Ton prénom">
+      </div>
+      <div class="form-group">
+        <label for="mail">Entre ton email : </label>
+        <input type="password" class="form-control" id="mail" placeholder="Ton email">
+      </div>
+      <div class="form-group">
+        <label for="askin">Quelle est ta demande ?</label>
+        <input type="password" class="form-control" id="askin" placeholder="Ta demande">
+      </div>
+      <button type="submit" class="btn btn-primary">Soumettre</button>
+    </form>
         <!--</div> -->
     </body>
 </html>
