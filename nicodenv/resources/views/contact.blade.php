@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-Salut c'est {{ $username }}
-
-=======
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -159,4 +155,3 @@ Salut c'est {{ $username }}
         <!--</div> -->
     </body>
 </html>
->>>>>>> 86c14df538b69df18717ef00d9c021fdbcd350e3
