@@ -1,3 +1,9 @@
-Salut,
-C'est {{ $name }} {{ $surname }} mon adresse mail est {{ $email }};
-ma question est : {{ $question }}.
+Prénom : {{ $name }}
+Nom : {{ $surname }}
+
+Mail : {{ $email }}
+
+Voici ma question :
+
+{{ $question }}.
+
