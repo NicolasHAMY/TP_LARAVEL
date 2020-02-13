@@ -87,14 +87,32 @@
                         }
             .form-group{
                 width: 32%;
-                position:relative;
+                position: relative;
                 left: 10%;
+                bottom : 40%;
             }
             .askin{
                 width: 32%;
                 position: absolute;
                 left: 57%;
-                bottom: 37%;
+                top: 35%;
+            }
+            .but{
+                position : absolute;
+                top : 25%;
+                width: 100%;
+            }
+            #footer{
+                background-color: #4A3392;
+                height: 50px;
+                position: absolute;
+                top: 110%;
+                width: 100%;
+            }
+            .cguml{
+                color: white;
+                position: relative;
+                top : 25%
             }
         </style>
     </head>
@@ -144,6 +162,7 @@
                 <div>
         <div>
         <!-- <div class="tenor-gif-embed" data-postid="4702859" data-share-method="host" data-width="100%" data-aspect-ratio="1.7291666666666667"><a href="https://tenor.com/view/sos-save-me-help-me-sponge-bob-gif-4702859">SOS SOS SOS - SpongeBob Squarepants GIF</a> from <a href="https://tenor.com/search/sos-gifs">Sos GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+    <br><br>
     <form>
       <div class="form-group">
         <label for="name">Entre ton nom : </label>
@@ -161,8 +180,16 @@
         <label for="askin">Quelle est ta demande ?</label>
         <textarea class="form-control" id="askin" rows="9" placeholder="Ta demande"></textarea>
       </div>
+      <br>
+      <br>
       <button type="submit" class="btn btn-primary" id="soumettre">Soumettre</button>
     </form>
+
+    <footer id="footer">
+            <a href=* class="cguml"> CGU </a>
+            <a class="cguml"> | </a>
+            <a href=* class="cguml"> Mentions Légales </a>
+    </footer>
         <!--</div> -->
     </body>
 </html>
