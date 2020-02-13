@@ -200,36 +200,36 @@
         <div class="but">
             <img src="..\..\Maquettes\Images Pour Maquettage\Nico.png" id="photo_nico">
                 <div id="text">
-                    Nicolas 21 ans, fan de jeux vidéos majoritairement compétitifs sous le pseudo de Nicodenv !
-                    Vous me retrouverez principalement sur League Of Legends mais également de temps a autre sur d'autre jeux comme Legends Of Runeterra, TFT, Overwatch et CS-GO :)
-                    Si vous avez des questions,demandes de coaching, demandes commerciales ou autres a me faire parvenir veuillez m'envoyer un petit message à travers ce formulaire.
+                    Nicolas 21 ans, fan de jeux vidéos majoritairement compétitifs sous le pseudo de Nicodenv ! <br>
+                    Vous me retrouverez principalement sur League Of Legends mais également de temps en temps sur d'autres jeux comme Legends Of Runeterra, TFT, Overwatch et CS-GO :) <br> <br>
+                    Si vous avez des questions, des demandes de coaching, des demandes commerciales ou autre à me faire parvenir, veuillez m'envoyer un petit message à travers ce formulaire.
                 </div>
         </div>
         <!-- <div class="tenor-gif-embed" data-postid="4702859" data-share-method="host" data-width="100%" data-aspect-ratio="1.7291666666666667"><a href="https://tenor.com/view/sos-save-me-help-me-sponge-bob-gif-4702859">SOS SOS SOS - SpongeBob Squarepants GIF</a> from <a href="https://tenor.com/search/sos-gifs">Sos GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
     <br><br>
-    <form>
-
+	<form method="POST" action="{!! url('contactForm') !!}" accept-charset="UTF-8">
+        @csrf
         <div class="row flex-center">
 
             <div class="block-form col-4">
 
                 <div class="form-group">
                     <label for="name">Entre ton nom : </label>
-                    <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Ton nom">
+                    <input name="name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Ton nom">
                 </div>
                 <div class="form-group">
                     <label for="surname">Entre ton prénom : </label>
-                    <input type="name" class="form-control" id="surname" placeholder="Ton prénom">
+                    <input name="surname" type="text" class="form-control" id="surname" placeholder="Ton prénom">
                 </div>
                 <div class="form-group">
                     <label for="mail">Entre ton email : </label>
-                    <input type="name" class="form-control" id="mail" placeholder="Ton email">
+                    <input name="email" type="email" class="form-control" id="mail" placeholder="Ton email">
                 </div>
             </div>
 
             <div class="askin col-4">
                 <label for="askin">Quelle est ta demande ?</label>
-                <textarea class="form-control" id="askin" rows="9" placeholder="Ta demande"></textarea>
+                <textarea name="question" class="form-control" id="askin" rows="9" placeholder="Ta demande"></textarea>
             </div>
         </div>
 
