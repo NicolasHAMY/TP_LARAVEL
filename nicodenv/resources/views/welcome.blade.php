@@ -31,9 +31,6 @@
                 display: flex;
                 justify-content: center;
             }
-            .flex-left {
-
-            }
 
             .position-ref {
                 position: relative;
@@ -63,75 +60,55 @@
                 text-transform: uppercase;
             }
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-
-            .purple{
-                background-color: #4A3392;
-            }
-
-            .font-blue{
-                background-color: #202dcb;
-            }
-
-            .font-blue-purple{
-                background: linear-gradient(#4A3392,#202dcb);
-            }
             a:hover{
                 color: inherit;
                 cursor: pointer;
             }
             a:link{
-                cursor: pointer;}
+                cursor: pointer;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+
+            .font-blue-purple{
+                background: linear-gradient(#4A3392,#202dcb);
+            }
 
             .white{
                 color: #ffffff;
             }
-            .blue{
-                color: #202dcb;
-            }
-            #banner{
-                height: 75px;
-                width: 100%;
-            }
-            .title{
-                padding: 15px 0px;
-            }
-            h1.title::before {
-                content: url("./images/logo-nicodenv.jpg");
-                padding: 0px 20px;
-                margin-top: 10px;
 
-
-            }
             .navbar{
                 height: 100px;
                 padding: 0px 50px;
             }
+
             .nav-item{
                 padding: 0px 10px;
 
             }
-            .stream-box{
-                padding: 0px 0px;
 
-
-            }
-            .chat-box{
-                padding: 0;
-
-            }
             .live-box{
                 padding: 00px 0px;
                 margin: 50px 0px;
-
             }
+
+            .stream-box{
+                padding: 0px 0px;
+            }
+
+            .chat-box{
+                padding: 0;
+            }
+
             #social{
                 height: 10%;
                 width: 100%;
                 margin-bottom: 50px;
             }
+
             .subtitle{
                 width: 25%;
                 text-align: center;
@@ -141,28 +118,18 @@
                 background: linear-gradient(#202dcb,#4A3392);
             }
 
+            .social-networks{
+                margin: 20px 0px;
+            }
+
             .img-social-networks{
                 max-width: 50px;
                 margin: 0px 30px;
                 cursor: pointer;
             }
 
-            .social-networks{
-                margin: 20px 0px;
-            }
-
-
-
             div.subtitle p{
                 margin: 0;
-            }
-
-            .left{
-                text-align: left;
-            }
-
-            .right{
-                text-align: right;
             }
 
             .copyright{
@@ -195,15 +162,10 @@
 
         </style>
     </head>
+    
     <body>
-
+            <!----- HEADER/NAVBAR ----->
              <header>
-                 <!--
-                <div id="banner" class="font-blue-purple">
-
-                </div>
-                -->
-
                 <nav class="navbar navbar-expand-lg font-blue-purple">
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
@@ -218,13 +180,12 @@
                         </ul>
 
                         <ul class="navbar-nav ml-auto">
-
                             <li class="nav-item active">
                                 <a class="nav-link white" href="{{ url('/') }}">STREAM</a>
-                            </li><!--
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Planning</a>
-                                    </li>-->
+                            </li>
+                        <!--<li class="nav-item">
+                                <a class="nav-link" href="#">Planning</a>
+                            </li>-->
                             <li class="nav-item">
                                 <a class="nav-link white" href="{{ url('/contact') }}">CONTACT</a>
                             </li>
@@ -234,24 +195,29 @@
 
             </header>
 
+            <!----- MAIN ----->
             <div class="content">
-
+                <!----- CONTENT-STREAM ----->
                 <div class="container">
                     <div class="row flex-center live-box">
+
                         <div class="stream-box">
                             <iframe src="https://player.twitch.tv/?channel=nicodenv" frameborder="0" allowfullscreen="true" scrolling="no" height="500" width="720"></iframe>
                         </div>
+
                         <div class="chat-box">
                             <iframe src="https://www.twitch.tv/embed/nicodenv/chat" frameborder="0" scrolling="no" height="500" width="350"></iframe>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
-
+                <!----- CONTENT-SOCIAL ----->
                 <div id="social">
-                    <div class="subtitle font-blue">
-                    <p>Rejoignez moi sur les réseaux sociaux !</p>
+
+                    <div class="subtitle">
+                        <p>Rejoignez moi sur les réseaux sociaux !</p>
                     </div>
+
                     <div class="social-networks">
                         <a href="https://twitter.com/Nicodenv" target="_blank"><img src="./images/twitter.png" class="img-social-networks"></a>
                         <a href="https://www.instagram.com/nicodenv/" target="_blank"><img src="./images/instagram.png" class="img-social-networks"></a>
@@ -260,21 +226,18 @@
                     </div>
                 </div>
 
-                <!-- Footer -->
+                <!----- FOOTER ----->
                 <footer id="footer">
+
                     <div class="col-6">
                         <p class="copyright">© 2020 Nicodenv.tv • Tous droits réservés</p>
                     </div>
+
                     <div class="col-12">
                         <p class="mentions-legales">Mentions légales</p>
                     </div>
 
                 </footer>
-
-
-
-                <!-- Footer -->
             </div>
-        <!--</div> -->
     </body>
 </html>
