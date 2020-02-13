@@ -30,6 +30,7 @@
                 align-items: center;
                 display: flex;
                 justify-content: center;
+                margin: 0 auto;
             }
 
             .position-ref {
@@ -153,7 +154,7 @@
             #footer{
                 background: linear-gradient(#202dcb,#4A3392);
                 height: 50px;
-                position: absolute;
+                position: fixed;
                 bottom: 0;
                 left: 0;
                 width: 100%;
@@ -162,7 +163,7 @@
 
         </style>
     </head>
-    
+
     <body>
             <!----- HEADER/NAVBAR ----->
              <header>
