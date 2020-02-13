@@ -11,6 +11,9 @@
 |
 */
 
+use App\Mail\MailtrapExample;
+use Illuminate\Support\Facades\Mail;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -20,3 +23,4 @@ Route::get('contact', 'PagesController@contact');
 Route::get('/contact', function () {
     return view('contact');
 });
+
