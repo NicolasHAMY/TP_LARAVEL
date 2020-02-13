@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('pageContact', 'ViewController@getPageContact');
 
-Route::post('contactForm', 'PagesController@postForm');
+Route::post('contactForm', 'FormController@postForm');
 
 Route::get('/contact', function () {
     return view('contact');
