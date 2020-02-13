@@ -20,8 +20,7 @@ class PagesController extends Controller
 
             Mail::send(['text' => 'SendMessage'], ['surname' => $request->input('premon'), 'question' => $request->input('question')], function($sm) use ($request) {
             $sm->from('contact@nicodenv.io')->to($request->email)->subject('Question');
-
-            return redirect('/');
             });
+            return redirect("/");
     }
 }
