@@ -17,7 +17,6 @@
                 background-color: #3C3636;
                 color: #ffffff;
                 font-family:'work', sans-serif ;
-
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -31,6 +30,9 @@
                 align-items: center;
                 display: flex;
                 justify-content: center;
+            }
+            .flex-left {
+
             }
 
             .position-ref {
@@ -76,6 +78,12 @@
             .font-blue-purple{
                 background: linear-gradient(#4A3392,#202dcb);
             }
+            a:hover{
+                color: inherit;
+                cursor: pointer;
+            }
+            a:link{
+                cursor: pointer;}
 
             .white{
                 color: #ffffff;
@@ -87,11 +95,23 @@
                 height: 75px;
                 width: 100%;
             }
-            .title-banner{
+            .title{
                 padding: 15px 0px;
             }
+            h1.title::before {
+                content: url("./images/logo-nicodenv.jpg");
+                padding: 0px 20px;
+                margin-top: 10px;
+
+
+            }
             .navbar{
-                height: 40px;
+                height: 100px;
+                padding: 0px 50px;
+            }
+            .nav-item{
+                padding: 0px 10px;
+
             }
             .stream-box{
                 padding: 0px 0px;
@@ -131,50 +151,76 @@
                 margin: 20px 0px;
             }
 
-            #footer{
-                background: linear-gradient(#202dcb,#4A3392);
-                height: 50px;
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-            }
+
 
             div.subtitle p{
                 margin: 0;
             }
 
-            a{
-                cursor: pointer;
+            .left{
+                text-align: left;
+            }
+
+            .right{
+                text-align: right;
+            }
+
+            .copyright{
+                text-align: left;
+                float: left;
+                padding-left: 50px!important;
+                padding-top: 15px;
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 0px;
+            }
+            .mentions-legales{
+                text-align: right;
+                padding-top: 15px;
+                padding-right: 50px;
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 0px;
+            }
+
+            #footer{
+                background: linear-gradient(#202dcb,#4A3392);
+                height: 50px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                right: 0;
             }
 
         </style>
     </head>
     <body>
-    <!--
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
--->         <header>
+             <header>
+                 <!--
                 <div id="banner" class="font-blue-purple">
-                    <h1 class="title-banner flex-center" >Nicodenv</h1>
-                </div>
 
-                <nav class="navbar navbar-expand-lg font-blue">
+                </div>
+                -->
+
+                <nav class="navbar navbar-expand-lg font-blue-purple">
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="navbar-brand" href="{{ url('/') }}">
+                                    <img src="./images/logo-nicodenv.jpg">
+                                </a>
+                            </li>
+                            <li class="nav-item" style="margin-top: 15px">
+                                <a class="nav-link white" href="{{ url('/') }}"><h1>NICODENV</h1></a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav ml-auto">
+
                             <li class="nav-item active">
-                                <a class="nav-link white" href="{{ url('/') }}">STREAM<span class="sr-only">(current)</span></a>
+                                <a class="nav-link white" href="{{ url('/') }}">STREAM</a>
                             </li><!--
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Planning</a>
@@ -214,9 +260,20 @@
                     </div>
                 </div>
 
+                <!-- Footer -->
                 <footer id="footer">
+                    <div class="col-6">
+                        <p class="copyright">© 2020 Nicodenv.tv • Tous droits réservés</p>
+                    </div>
+                    <div class="col-12">
+                        <p class="mentions-legales">Mentions légales</p>
+                    </div>
 
                 </footer>
+
+
+
+                <!-- Footer -->
             </div>
         <!--</div> -->
     </body>
