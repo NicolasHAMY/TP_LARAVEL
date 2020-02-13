@@ -85,35 +85,6 @@
             .title-banner{
                 padding: 26px 0px;
                         }
-            .form-group{
-                width: 32%;
-                position: relative;
-                left: 10%;
-                bottom : 40%;
-            }
-            .askin{
-                width: 32%;
-                position: absolute;
-                left: 57%;
-                top: 35%;
-            }
-            .but{
-                position : absolute;
-                top : 25%;
-                width: 100%;
-            }
-            #footer{
-                background-color: #4A3392;
-                height: 50px;
-                position: absolute;
-                top: 110%;
-                width: 100%;
-            }
-            .cguml{
-                color: white;
-                position: relative;
-                top : 25%
-            }
         </style>
     </head>
     <body>
@@ -161,8 +132,7 @@
                 J'aime les anananananas
                 <div>
         <div>
-        <!-- <div class="tenor-gif-embed" data-postid="4702859" data-share-method="host" data-width="100%" data-aspect-ratio="1.7291666666666667"><a href="https://tenor.com/view/sos-save-me-help-me-sponge-bob-gif-4702859">SOS SOS SOS - SpongeBob Squarepants GIF</a> from <a href="https://tenor.com/search/sos-gifs">Sos GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
-    <br><br>
+        
     <form>
       <div class="form-group">
         <label for="name">Entre ton nom : </label>
@@ -176,20 +146,12 @@
         <label for="mail">Entre ton email : </label>
         <input type="name" class="form-control" id="mail" placeholder="Ton email">
       </div>
-      <div class="askin">
+      <div class="form-group">
         <label for="askin">Quelle est ta demande ?</label>
-        <textarea class="form-control" id="askin" rows="9" placeholder="Ta demande"></textarea>
+        <input type="name" class="form-control" id="askin" placeholder="Ta demande">
       </div>
-      <br>
-      <br>
-      <button type="submit" class="btn btn-primary" id="soumettre">Soumettre</button>
+      <button type="submit" class="btn btn-primary">Soumettre</button>
     </form>
-
-    <footer id="footer">
-            <a href=* class="cguml"> CGU </a>
-            <a class="cguml"> | </a>
-            <a href=* class="cguml"> Mentions Légales </a>
-    </footer>
         <!--</div> -->
     </body>
 </html>
