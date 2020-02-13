@@ -133,6 +133,38 @@
             margin: 0;
         }
 
+        .form-group{
+            width: 100%;
+            position: relative;
+        }
+
+        .askin{
+            width: 100%;
+            position: relative;
+            text-align: center;
+            margin-left: 100px;
+        }
+
+        .block-form{
+            text-align: center;
+            margin-right: 100px;
+            width: 100%;
+
+        }
+
+        .but{
+            position : relative;
+            margin-top: 50px;
+            width: 100%;
+        }
+
+        #text{
+            width: 45%;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
         .copyright{
             text-align: left;
             float: left;
@@ -160,21 +192,26 @@
             width: 100%;
             right: 0;
         }
+        #soumettre{
+            margin-top: 50px;
+        }
 
     </style>
 </head>
-
+<body>
 
 <!----- HEADER/NAVBAR ----->
 <header>
-    @yield('header')
+  @include("layouts.header")
 </header>
 
-<body>
+@yield("content")
 
+<!----- FOOTER ----->
+<footer id="footer">
+    @include("layouts.footer")
+</footer>
 
 </body>
-<!----- FOOTER ----->
-<footer>
-    @yield('footer')
-</footer>
+
+</html>

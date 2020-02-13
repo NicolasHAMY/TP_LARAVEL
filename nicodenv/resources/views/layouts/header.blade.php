@@ -1,5 +1,5 @@
-@extends('layouts.app')
-@section('header')
+
+
     <nav class="navbar navbar-expand-lg font-blue-purple">
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -26,5 +26,5 @@
             </ul>
         </div>
     </nav>
-@endsection
+
 
