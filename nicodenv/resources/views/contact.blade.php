@@ -215,21 +215,21 @@
 
                 <div class="form-group">
                     <label for="name">Entre ton nom : </label>
-                    <input name="name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Ton nom">
+                    <input name="name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Ton nom" required>
                 </div>
                 <div class="form-group">
                     <label for="surname">Entre ton prénom : </label>
-                    <input name="surname" type="text" class="form-control" id="surname" placeholder="Ton prénom">
+                    <input name="surname" type="text" class="form-control" id="surname" placeholder="Ton prénom" required>
                 </div>
                 <div class="form-group">
                     <label for="mail">Entre ton email : </label>
-                    <input name="email" type="email" class="form-control" id="mail" placeholder="Ton email">
+                    <input name="email" type="email" class="form-control" id="mail" placeholder="Ton email" required>
                 </div>
             </div>
 
             <div class="askin col-4">
                 <label for="askin">Quelle est ta demande ?</label>
-                <textarea name="question" class="form-control" id="askin" rows="9" placeholder="Ta demande"></textarea>
+                <textarea name="question" class="form-control" id="askin" rows="9" placeholder="Ta demande" required></textarea>
             </div>
         </div>
 
