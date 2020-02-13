@@ -7,10 +7,6 @@ use Illuminate\Support\Facades\Mail;
 
 class PagesController extends Controller
 {
-    public function getForm()
-    {
-		return view('PostForm');
-	}
 
 	public function postForm(Request $request)
 	{
