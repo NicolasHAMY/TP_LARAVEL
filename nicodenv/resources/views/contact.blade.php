@@ -200,9 +200,9 @@
         <div class="but">
             <img src="..\..\Maquettes\Images Pour Maquettage\Nico.png" id="photo_nico">
                 <div id="text">
-                    Nicolas 21 ans, fan de jeux vidéos majoritairement compétitifs sous le pseudo de Nicodenv !
-                    Vous me retrouverez principalement sur League Of Legends mais également de temps a autre sur d'autre jeux comme Legends Of Runeterra, TFT, Overwatch et CS-GO :)
-                    Si vous avez des questions,demandes de coaching, demandes commerciales ou autres a me faire parvenir veuillez m'envoyer un petit message à travers ce formulaire.
+                    Nicolas 21 ans, fan de jeux vidéos majoritairement compétitifs sous le pseudo de Nicodenv ! <br>
+                    Vous me retrouverez principalement sur League Of Legends mais également de temps en temps sur d'autres jeux comme Legends Of Runeterra, TFT, Overwatch et CS-GO :) <br> <br>
+                    Si vous avez des questions, des demandes de coaching, des demandes commerciales ou autre à me faire parvenir, veuillez m'envoyer un petit message à travers ce formulaire.
                 </div>
         </div>
         <!-- <div class="tenor-gif-embed" data-postid="4702859" data-share-method="host" data-width="100%" data-aspect-ratio="1.7291666666666667"><a href="https://tenor.com/view/sos-save-me-help-me-sponge-bob-gif-4702859">SOS SOS SOS - SpongeBob Squarepants GIF</a> from <a href="https://tenor.com/search/sos-gifs">Sos GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
