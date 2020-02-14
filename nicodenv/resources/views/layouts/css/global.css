@@ -43,8 +43,6 @@ h1,h2,h3,h4,h5,h6{
     font-size: 84px;
 }
 
-
-
 .links > a {
     color: #636b6f;
     padding: 0 25px;
@@ -83,9 +81,6 @@ a:active{
 .navbar{
     height: 100px;
     padding: 0px 50px;
-
-  
-
 }
 
 .nav-item{
@@ -94,7 +89,6 @@ a:active{
 
 .title-nicodenv{
     margin-top: 25px;
-
 }
 
 .logo{
@@ -106,6 +100,7 @@ a:active{
     background-color: #0159b3;
     border-radius: 50%;
 }
+
 /*  ---------- CONTENT ---------- */
 
 .live-box{
@@ -189,6 +184,7 @@ div.subtitle p{
 }
 
 /*  ---------- CONTENT-MENTION LEGAL ---------- */
+
 div.text-mention-legal{
     text-align: justify;
     text-justify: inter-word;
@@ -197,7 +193,6 @@ div.text-mention-legal{
     padding-right: 50px;
     margin-bottom: 75px;
 }
-
 
 /*  ---------- FOOTER ---------- */
 
@@ -231,6 +226,7 @@ div.text-mention-legal{
     width: 100%;
     right: 0;
 }
+
 #soumettre{
     margin-top: 50px;
 }

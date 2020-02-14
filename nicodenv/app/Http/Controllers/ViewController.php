@@ -9,12 +9,10 @@ class ViewController extends Controller
     public function getPageContact()
     {
         return view('contact');
-
     }
 
     public function getPageHome()
     {
         return view('home');
-
     }
 }
