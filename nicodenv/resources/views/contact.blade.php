@@ -43,5 +43,14 @@
 
           <button type="submit" class="btn font-blue-purple white" id="soumettre">Soumettre</button>
         </form>
+
+        @if($errors->any())
+        <h4>{{$errors->first()}}</h4>
+        @endif
+        @if (Session::has('message'))
+        <div>{{Session::get('message')}}</div>
+         @endif
+
+
     </div>
 @endsection
