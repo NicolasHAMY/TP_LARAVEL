@@ -43,6 +43,5 @@
 
           <button type="submit" class="btn font-blue-purple white" id="soumettre">Soumettre</button>
         </form>
-
     </div>
 @endsection

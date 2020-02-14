@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section("content")
-
     <div class="text-mention-legal">
         <h1>Conditions Générales d'Utilisation ("Conditions")</h1>
 

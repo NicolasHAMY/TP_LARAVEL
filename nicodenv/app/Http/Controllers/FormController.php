@@ -10,6 +10,7 @@ class FormController extends Controller
 
 	public function postForm(Request $request)
 	{
+
             Mail::send(['text' => 'questions'], ['name' => $request->input('name'), 'surname' => $request->input('surname'), 'email' => $request->input('email'),  'question' => $request->input('question')], function($message){
             $message->from('reply@nicodenv.io')->to('contact@nicodenv.io')->subject('Contact');
             });
