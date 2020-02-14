@@ -1,9 +1,9 @@
 # TP_LARAVEL
 
 **Composition du groupe :**
-- Nicolas Hamy
-- Simon Bourrasseau
-- Margaux Dechaud
+- Nicolas Hamy (#NicolasHAMY)
+- Simon Bourrasseau (#simonbourrasseau)
+- Margaux Dechaud (#PseudoSerieux)
 
 **Création d'un site Web avec Laravel :**
 
