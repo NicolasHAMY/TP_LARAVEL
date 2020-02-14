@@ -13,7 +13,10 @@ class FormController extends Controller
 	{
 	        try{
                 request()->validate([
-                   'email' => 'email:filter'
+                    'name'=>'required',
+                    'surname'=>'required',
+                    'question'=>'required',
+                    'email' => 'email:filter'
                 ]);
 	        }catch (Exception $e) {
                 return Redirect::back()->withErrors(['msg', 'The Message']);
