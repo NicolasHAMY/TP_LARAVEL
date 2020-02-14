@@ -26,6 +26,6 @@ class FormController extends Controller
             Mail::send(['text' => 'answers'], ['surname' => $request->input('surname'), 'question' => $request->input('question')], function($sm) use ($request) {
             $sm->from('contact@nicodenv.io')->to($request->email)->subject('Question');
             });
-             return Redirect()->back()->with(['message' => 'message envoyé']);
+             return Redirect()->back()->with(['message' => 'Message envoyé']);
     }
 }

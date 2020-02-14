@@ -194,6 +194,18 @@ div.text-mention-legal{
     margin-bottom: 75px;
 }
 
+.error-form{
+    padding: 5px;
+    font-weight: bold;
+    color: red;
+}
+
+.validation-form{
+    padding: 5px;
+    font-weight: bold;
+    color: green;
+}
+
 /*  ---------- FOOTER ---------- */
 
 .copyright{

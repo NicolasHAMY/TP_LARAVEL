@@ -32,6 +32,9 @@
                     <div class="form-group">
                         <label for="mail">Entre ton email : </label>
                         <input name="email" type="email" class="form-control" id="mail" placeholder="Ton email" required>
+                        @if($errors->has('email'))
+                            <p class="error-form">{{$errors->first('email')}}</p>
+                        @endif
                     </div>
                 </div>
 
@@ -43,14 +46,8 @@
 
           <button type="submit" class="btn font-blue-purple white" id="soumettre">Soumettre</button>
         </form>
-
-        @if($errors->any())
-        <h4>{{$errors->first()}}</h4>
-        @endif
         @if (Session::has('message'))
-        <div>{{Session::get('message')}}</div>
+        <div class="validation-form">{{Session::get('message')}}</div>
          @endif
-
-
     </div>
 @endsection
