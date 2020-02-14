@@ -18,6 +18,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('pageHome', 'ViewController@getPageHome');
+
 Route::get('pageContact', 'ViewController@getPageContact');
 
 Route::post('contactForm', 'FormController@postForm');

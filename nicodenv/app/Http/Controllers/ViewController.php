@@ -11,4 +11,10 @@ class ViewController extends Controller
         return view('contact');
 
     }
+
+    public function getPageHome()
+    {
+        return view('home');
+
+    }
 }
