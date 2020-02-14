@@ -27,3 +27,7 @@ Route::post('contactForm', 'FormController@postForm');
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/MentionLegal', function () {
+    return view('mention');
+});

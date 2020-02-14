@@ -4,7 +4,7 @@
     </div>
 
     <div class="col-12">
-        <p class="mentions-legales">Mentions légales</p>
+        <a href="{{ url('MentionLegal') }}" class="mentions-legales white"><p>Mentions légales</p></a>
     </div>
 
 
