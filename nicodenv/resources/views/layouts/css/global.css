@@ -149,6 +149,12 @@ div.subtitle p{
     position: relative;
 }
 
+.form-control{
+    border: 5px solid;
+    border-image: linear-gradient(#4A3392, #202dcb) 10;
+    /*#4A3392,#202dcb*/
+}
+
 .askin{
     width: 100%;
     position: relative;
@@ -176,6 +182,14 @@ div.subtitle p{
     margin-top: 20px;
 }
 
+/*  ---------- CONTENT-MENTION LEGAL ---------- */
+div.text-mention-legal{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 
 /*  ---------- FOOTER ---------- */
@@ -189,6 +203,7 @@ div.subtitle p{
     margin: 0 auto;
     padding-left: 0px;
 }
+
 .mentions-legales{
     text-align: right;
     padding-top: 15px;
