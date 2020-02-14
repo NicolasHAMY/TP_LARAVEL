@@ -62,6 +62,9 @@ a:hover{
 a:link{
     cursor: pointer;
 }
+a:active{
+    color: unset;
+}
 
 .m-b-md {
     margin-bottom: 30px;
