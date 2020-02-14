@@ -1,3 +1,6 @@
+
+/*  ---------- GLOBAL ---------- */
+
 html, body {
     background-color: #3C3636;
     color: #ffffff;
@@ -5,6 +8,10 @@ html, body {
     font-weight: 200;
     height: 100vh;
     margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0 auto;
+    padding: 0px;
 }
 
 .full-height {
@@ -36,6 +43,8 @@ html, body {
     font-size: 84px;
 }
 
+
+
 .links > a {
     color: #636b6f;
     padding: 0 25px;
@@ -66,6 +75,8 @@ a:link{
     color: #ffffff;
 }
 
+/*  ---------- NAVBAR ---------- */
+
 .navbar{
     height: 100px;
     padding: 0px 50px;
@@ -73,8 +84,23 @@ a:link{
 
 .nav-item{
     padding: 0px 10px;
+}
+
+.title-nicodenv{
+    margin-top: 25px;
 
 }
+
+.logo{
+    display: block;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #0159b3;
+    border-radius: 50%;
+}
+/*  ---------- CONTENT ---------- */
 
 .live-box{
     padding: 00px 0px;
@@ -149,6 +175,10 @@ div.subtitle p{
     margin: 0 auto;
     margin-top: 20px;
 }
+
+
+
+/*  ---------- FOOTER ---------- */
 
 .copyright{
     text-align: left;

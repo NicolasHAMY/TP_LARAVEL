@@ -5,11 +5,11 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="./images/logo-nicodenv.jpg">
+                        <img class="logo" src="./images/logo-nicodenv.jpg">
                     </a>
                 </li>
-                <li class="nav-item" style="margin-top: 15px">
-                    <a class="nav-link white" href="{{ url('/') }}"><h1>NICODENV</h1></a>
+                <li class="nav-item">
+                    <a class="nav-link title-nicodenv white" href="{{ url('/') }}"><h1>NICODENV</h1></a>
                 </li>
             </ul>
 
