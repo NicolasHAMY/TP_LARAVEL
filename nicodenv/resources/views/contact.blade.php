@@ -22,12 +22,12 @@
                 <div class="block-form col-4">
 
                     <div class="form-group">
-                        <label for="name">Entre ton nom : </label>
-                        <input name="name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Ton nom" required>
+                        <label for="surname">Entre ton prénom : </label>
+                        <input name="surname" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Ton prénom" required>
                     </div>
                     <div class="form-group">
-                        <label for="surname">Entre ton prénom : </label>
-                        <input name="surname" type="text" class="form-control" id="surname" placeholder="Ton prénom" required>
+                        <label for="name">Entre ton nom : </label>
+                        <input name="name" type="text" class="form-control" id="name" placeholder="Ton nom" required>
                     </div>
                     <div class="form-group">
                         <label for="mail">Entre ton email : </label>

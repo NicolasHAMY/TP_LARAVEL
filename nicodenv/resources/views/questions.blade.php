@@ -1,5 +1,5 @@
-Prénom : {{ $name }}
-Nom : {{ $surname }}
+Prénom : {{ $surname }}
+Nom : {{ $name }}
 
 Mail : {{ $email }}
 
