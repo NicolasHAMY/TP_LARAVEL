@@ -1,0 +1,232 @@
+
+/*  ---------- GLOBAL ---------- */
+
+html, body {
+    background-color: #3C3636;
+    color: #ffffff;
+    font-family:'work', sans-serif ;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: inherit;
+    cursor: pointer;
+}
+a:link{
+    cursor: pointer;
+}
+a:active{
+    color: unset;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.font-blue-purple{
+    background: linear-gradient(#4A3392,#202dcb);
+}
+
+.white{
+    color: #ffffff;
+}
+
+/*  ---------- NAVBAR ---------- */
+
+.navbar{
+    height: 100px;
+    padding: 0px 50px;
+}
+
+.nav-item{
+    padding: 0px 10px;
+}
+
+.title-nicodenv{
+    margin-top: 25px;
+}
+
+.logo{
+    display: block;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #0159b3;
+    border-radius: 50%;
+}
+
+/*  ---------- CONTENT ---------- */
+
+.live-box{
+    padding: 00px 0px;
+    margin: 50px 0px;
+}
+
+.stream-box{
+    padding: 0px 0px;
+}
+
+.chat-box{
+    padding: 0;
+}
+
+#social{
+    height: 10%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.subtitle{
+    width: 25%;
+    text-align: center;
+    margin: 0 auto!important;
+    padding: 10px 10px;
+    border-radius: 40px;;
+    background: linear-gradient(#202dcb,#4A3392);
+}
+
+.social-networks{
+    margin: 20px 0px;
+}
+
+.img-social-networks{
+    max-width: 50px;
+    margin: 0px 30px;
+    cursor: pointer;
+}
+
+div.subtitle p{
+    margin: 0;
+}
+
+.form-group{
+    width: 100%;
+    position: relative;
+}
+
+.form-control{
+    border: 5px solid;
+    border-image: linear-gradient(#4A3392, #202dcb) 10;
+    /*#4A3392,#202dcb*/
+}
+
+.askin{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.block-form{
+    text-align: center;
+    margin-right: 100px;
+    width: 100%;
+
+}
+
+.but{
+    position : relative;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#text{
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*  ---------- CONTENT-MENTION LEGAL ---------- */
+
+div.text-mention-legal{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 75px;
+}
+
+/*  ---------- FOOTER ---------- */
+
+.copyright{
+    text-align: left;
+    float: left;
+    padding-left: 50px!important;
+    padding-top: 15px;
+    width: 100%;
+    margin: 0 auto;
+
+    padding-left: 0px;
+}
+
+.mentions-legales{
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 50px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0px;
+    bottom: 0;
+}
+
+#footer{
+    background: linear-gradient(#202dcb,#4A3392);
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+}
+
+#soumettre{
+    margin-top: 50px;
+}

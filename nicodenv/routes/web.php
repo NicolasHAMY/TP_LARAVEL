@@ -11,12 +11,23 @@
 |
 */
 
+use App\Mail\MailtrapExample;
+use Illuminate\Support\Facades\Mail;
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
-Route::get('contact', 'PagesController@contact');
+Route::get('pageHome', 'ViewController@getPageHome');
+
+Route::get('pageContact', 'ViewController@getPageContact');
+
+Route::post('contactForm', 'FormController@postForm');
 
 Route::get('/contact', function () {
     return view('contact');
+});
+
+Route::get('/MentionLegal', function () {
+    return view('mention');
 });
