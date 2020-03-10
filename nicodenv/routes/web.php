@@ -31,3 +31,9 @@ Route::get('/contact', function () {
 Route::get('/MentionLegal', function () {
     return view('mention');
 });
+
+
+Route::get('/login', function () {
+    return view('login');
+});
+
