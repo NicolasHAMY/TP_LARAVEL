@@ -24,6 +24,10 @@ Route::get('pageContact', 'ViewController@getPageContact');
 
 Route::post('contactForm', 'FormController@postForm');
 
+Route::get('/cookie/set','CookieController@setCookie');
+
+Route::get('/cookie/get','CookieController@getCookie');
+
 Route::get('/contact', function () {
     return view('contact');
 });
@@ -31,3 +35,9 @@ Route::get('/contact', function () {
 Route::get('/MentionLegal', function () {
     return view('mention');
 });
+
+Route::get('/shop', function () {
+    return view('shop');
+});
+
+
