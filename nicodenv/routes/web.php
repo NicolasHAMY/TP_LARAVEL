@@ -31,3 +31,22 @@ Route::get('/contact', function () {
 Route::get('/MentionLegal', function () {
     return view('mention');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/logout', function ()    {
+
+    Auth::logout();
+        return redirect('/pageHome');
+
+        // Réservé aux utilisateurs authentifiés
+    });
+});
+

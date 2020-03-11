@@ -72,8 +72,16 @@ a:active{
     background: linear-gradient(#4A3392,#202dcb);
 }
 
+.font-blue{
+   color: #202dcb;
+}
+
 .white{
     color: #ffffff;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /*  ---------- NAVBAR ---------- */
@@ -128,7 +136,7 @@ a:active{
     text-align: center;
     margin: 0 auto!important;
     padding: 10px 10px;
-    border-radius: 40px;;
+    border-radius: 40px;
     background: linear-gradient(#202dcb,#4A3392);
 }
 
@@ -205,6 +213,26 @@ div.text-mention-legal{
     padding: 5px;
     font-weight: bold;
     color: green;
+}
+
+/*  ---------- LOGIN FORM ---------- */
+label.black{
+    color: black;
+}
+
+.black{
+    color: black;
+}
+
+.login, .register, .reset-password{
+    margin-top: 10%;
+
+}
+
+.form-login, .form-register, .form-reset-password{
+    border: 5px solid;
+    border-image: linear-gradient(#4A3392, #202dcb) 10;
+    /*#4A3392,#202dcb*/
 }
 
 /*  ---------- FOOTER ---------- */
