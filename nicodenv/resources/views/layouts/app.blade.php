@@ -13,7 +13,7 @@
 
     <!-- Styles -->
     <style>
-        @include("layouts.css.global")
+        @include("layouts.css.global");
     </style>
 
 </head>

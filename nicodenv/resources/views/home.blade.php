@@ -7,11 +7,11 @@
                 <div class="container">
                     <div class="row flex-center live-box">
                         <div class="stream-box">
-                            <iframe src="https://player.twitch.tv/?channel=nicodenv" frameborder="0" allowfullscreen="true" scrolling="no" height="500" width="720"></iframe>
+                            <iframe src="https://player.twitch.tv/?channel=nicodenv" frameborder="0" allowfullscreen="true" scrolling="no" height="850" width="950"></iframe>
                         </div>
 
                         <div class="chat-box">
-                            <iframe src="https://www.twitch.tv/embed/nicodenv/chat" frameborder="0" scrolling="no" height="500" width="350"></iframe>
+                            <iframe src="https://www.twitch.tv/embed/nicodenv/chat" frameborder="0" scrolling="no" height="850" width="400"></iframe>
                         </div>
                     </div>
                 </div>
