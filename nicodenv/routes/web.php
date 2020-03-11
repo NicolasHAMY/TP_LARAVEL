@@ -24,9 +24,7 @@ Route::get('pageContact', 'ViewController@getPageContact');
 
 Route::post('contactForm', 'FormController@postForm');
 
-Route::get('/cookie/set','CookieController@setCookie');
-
-Route::get('/cookie/get','CookieController@getCookie');
+Route::get('shop','shopController@getShop');
 
 Route::get('/contact', function () {
     return view('contact');
