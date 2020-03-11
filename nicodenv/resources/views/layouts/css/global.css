@@ -185,6 +185,12 @@ div.subtitle p{
 
 /*  ---------- CONTENT-MENTION LEGAL ---------- */
 
+.article{
+    background-color: #ffffff;
+}
+
+/*  ---------- CONTENT-MENTION LEGAL ---------- */
+
 div.text-mention-legal{
     text-align: justify;
     text-justify: inter-word;
