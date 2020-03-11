@@ -39,3 +39,14 @@ Route::get('/login', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/logout', function ()    {
+
+    Auth::logout();
+        return redirect('/pageHome');
+
+        // Réservé aux utilisateurs authentifiés
+    });
+});
+

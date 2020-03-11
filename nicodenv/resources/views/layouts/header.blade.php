@@ -1,5 +1,4 @@
 
-
     <nav class="navbar navbar-expand-lg font-blue-purple">
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -23,9 +22,6 @@
                 <li class="nav-item">
                     <a class="nav-link white" href="{{ url('/contact') }}">CONTACT</a>
                 </li>
-                 <li class="nav-item">
-                    <a class="nav-link white" href="{{ url('/login') }}">CONNEXION / INSCRIPTION</a>
-                </li>
 
         @if (Auth::guest())
             <li class="nav-item active">
@@ -35,17 +31,18 @@
                 <a class="nav-link white" href="{{ url('/register') }}">INSCRIPTION</a>
             </li>
         @else
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <li class="dropdown nav-item ">
+                <a href="#" class="dropdown-toggle nav-link white uppercase" data-toggle="dropdown" role="button" aria-expanded="false">
                     {{ Auth::user()->name }} <span class="caret"></span>
                 </a>
             </li>
-             <li>
-                <a href="{{ Auth::logout() }}">logout</a>
+             <li class="nav-item">
+                <a class="nav-link white" href="{{ url('/logout') }}">DECONNEXION</a>
              </li>
         @endif
-                    </ul>
-                </div>
-            </nav>
+
+            </ul>
+        </div>
+    </nav>
 
 

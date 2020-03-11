@@ -80,6 +80,10 @@ a:active{
     color: #ffffff;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /*  ---------- NAVBAR ---------- */
 
 .navbar{
