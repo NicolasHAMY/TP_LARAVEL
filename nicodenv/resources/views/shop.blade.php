@@ -12,7 +12,7 @@
             <div id="description">
                 <p>description = NULL</p>
             </div>
-            <div id="add"
+            <div id="add">
                 <button type="submit" class="btn font-blue-purple white" id="addToCart">ajoutez au panier</button>
             </div>
         </div>
