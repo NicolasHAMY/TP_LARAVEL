@@ -24,6 +24,10 @@ Route::get('pageContact', 'ViewController@getPageContact');
 
 Route::post('contactForm', 'FormController@postForm');
 
+Route::resource('Pageshop','ShopController@__construct');
+
+Route::resource('Pageshop','ShopController');
+
 Route::get('/contact', function () {
     return view('contact');
 });

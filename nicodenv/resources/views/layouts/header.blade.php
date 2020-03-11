@@ -22,6 +22,10 @@
                 <li class="nav-item">
                     <a class="nav-link white" href="{{ url('/contact') }}">CONTACT</a>
                 </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link white" href="{{ url('/Pageshop') }}">BOUTIQUE</a>
+                </li>
 
         @if (Auth::guest())
             <li class="nav-item active">
@@ -40,6 +44,7 @@
                 <a class="nav-link white" href="{{ url('/logout') }}">DECONNEXION</a>
              </li>
         @endif
+
 
             </ul>
         </div>
