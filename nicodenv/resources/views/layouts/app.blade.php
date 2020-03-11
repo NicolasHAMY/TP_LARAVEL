@@ -26,6 +26,26 @@
 
 @yield("content")
 
+ <!--
+<div class="modal fade" tab-index="-1" role="dialog" aria-labelledby="loginModalLabel" id="loginModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" name="button" class="close" data-dismiss="modal" aria-label="Close">
+                </button>
+                <h4 class="modal-title" id="loginModalLabel">Sign in to start your session</h4>
+               </div>
+               <div class="modal-body">
+
+               </div>
+                <div class="modal-footer">
+                    <p>This is our modal footer</p>
+                 </div>
+                 </div>
+                 </div>
+                 </div>
+ -->
+
 <!----- FOOTER ----->
 <footer id="footer">
     @include("layouts.footer")

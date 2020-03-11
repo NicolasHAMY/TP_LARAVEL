@@ -26,8 +26,26 @@
                  <li class="nav-item">
                     <a class="nav-link white" href="{{ url('/login') }}">CONNEXION / INSCRIPTION</a>
                 </li>
-            </ul>
-        </div>
-    </nav>
+
+        @if (Auth::guest())
+            <li class="nav-item active">
+                <a class="nav-link white" href="{{ url('/login') }}">CONNEXION</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link white" href="{{ url('/register') }}">INSCRIPTION</a>
+            </li>
+        @else
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    {{ Auth::user()->name }} <span class="caret"></span>
+                </a>
+            </li>
+             <li>
+                <a href="{{ Auth::logout() }}">logout</a>
+             </li>
+        @endif
+                    </ul>
+                </div>
+            </nav>
 
 
