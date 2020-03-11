@@ -2,24 +2,17 @@
 @extends('layouts.app')
 @section("content")
 
-			<table class="table">
-				<thead>
-					<tr>
-						<th>#</th>
-						<th>Nom</th>
-						<th></th>
-						<th></th>
-						<th></th>
-					</tr>
-				</thead>
-				<tbody>
-
-					@foreach ($shop as $shop )
-						<tr>
-							<td>{!! $shop->shop_Article_id !!}</td>
-							<td class="text-primary"><strong>{!! $shop->shop_Article_name !!}</strong></td>
-						</tr>
+			<div class="container">
+              <div class="row">
+                <div class="col-12">
+					@foreach ($shop as $shop)
+					    <div style="float: left">
+							<div class="text-primary"><strong>{!! $shop->shop_Article_name !!}</strong></div>
+							<div class="text-primary"><strong>{!! $shop->shop_Article_description !!}</strong></div>
+							<div class="text-primary"><strong>{!! $shop->shop_Article_price !!}</strong></div>
+                        </div>
 					@endforeach
-	  			</tbody>
-			</table>
+				    </div>
+			    </div>
+			</div>
 @endsection

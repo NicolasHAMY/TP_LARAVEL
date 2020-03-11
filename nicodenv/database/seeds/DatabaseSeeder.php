@@ -13,9 +13,9 @@ class DatabaseSeeder extends Seeder
     {
             App\shop::create(
                 [
-                    'shop_Article_name' => 'un trux',
-                    'shop_Article_description' => 'achetez ma merde',
-                    'shop_Article_price' => ('96521.962'),
+                    'shop_Article_name' => 'nico',
+                    'shop_Article_description' => 'lui meme',
+                    'shop_Article_price' => ('2'),
                 ]
             );
     }

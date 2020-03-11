@@ -10,5 +10,5 @@ class shop extends Model
 
     public $timestamps = false;
 
-    protected $fillable = ['shop_Article_name'];
+    protected $fillable = ['shop_Article_name','shop_Article_description','shop_Article_price'];
 }
