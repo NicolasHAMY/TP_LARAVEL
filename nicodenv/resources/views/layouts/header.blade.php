@@ -24,7 +24,7 @@
                     <a class="nav-link white" href="{{ url('/contact') }}">CONTACT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link white" href="{{ url('/shop') }}">BOUTIQUE</a>
+                    <a class="nav-link white" href="{{ url('/Pageshop') }}">BOUTIQUE</a>
                 </li>
             </ul>
         </div>
