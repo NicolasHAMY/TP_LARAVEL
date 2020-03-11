@@ -9,6 +9,8 @@
 
 - Présentation des réseaux sociaux utilisés
 - Page de contact avec email de confirmation
+- Système d'authentification (inscription/connexion)
+- Mise en place d'une boutique en ligne avec panier
 
 **PREREQUIS**
 
@@ -24,7 +26,7 @@
 
 - Rename .env.example en .env
 
-    Copier : 
+    Copier / Coller : 
     
         MAIL_DRIVER=smtp
         MAIL_HOST=smtp.mailtrap.io
