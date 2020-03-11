@@ -9,4 +9,6 @@ class shop extends Model
     protected $table = 'shop';
 
     public $timestamps = false;
+
+    protected $fillable = ['shop_Article_name'];
 }

@@ -24,7 +24,9 @@ Route::get('pageContact', 'ViewController@getPageContact');
 
 Route::post('contactForm', 'FormController@postForm');
 
-Route::get('shop','shopController@getShop');
+Route::resource('Pageshop','ShopController@__construct');
+
+Route::resource('Pageshop','ShopController');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -32,10 +34,6 @@ Route::get('/contact', function () {
 
 Route::get('/MentionLegal', function () {
     return view('mention');
-});
-
-Route::get('/shop', function () {
-    return view('shop');
 });
 
 

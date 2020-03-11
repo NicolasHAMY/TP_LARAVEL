@@ -11,6 +11,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+            App\shop::create(
+                [
+                    'shop_Article_name' => 'un trux',
+                    'shop_Article_description' => 'achetez ma merde',
+                    'shop_Article_price' => ('96521.962'),
+                ]
+            );
     }
 }

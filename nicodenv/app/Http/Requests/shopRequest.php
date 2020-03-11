@@ -27,4 +27,9 @@ class shopRequest extends FormRequest
 
         ];
     }
+
+    public function getPaginate($n)
+    {
+        return $this->shop->paginate($n);
+    }
 }
