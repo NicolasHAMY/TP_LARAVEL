@@ -217,8 +217,8 @@ div.subtitle p{
 }
 
 .img-article{
-    max-height: 150px;
-    max-width: 150px;
+    max-height: 250px;
+    max-width: 250px;
 }
 
 .img-cart{
@@ -234,6 +234,7 @@ div.subtitle p{
     right: 20px;
     padding-right: 25px;
     padding-top: 25px;
+
 }
 
 .line-article{
