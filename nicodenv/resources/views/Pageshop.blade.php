@@ -14,12 +14,16 @@
               </div>
                 <div class="shop col-12">
 					@foreach ($shop as $shop)
-					    <div class="box-article col-3"style="float: left">
-					        <img class="img-article" href="{!! $shop->shop_Article_image !!}">
-							<p class="line-article font-blue bold">{!! $shop->shop_Article_name !!}</p>
-							<p class="line-article font-blue bold">{!! $shop->shop_Article_description !!}</p>
-							<p class="line-article font-blue bold">{!! $shop->shop_Article_price !!}</p>
-                            <button type="submit" class="btn font-blue-purple white">AJOUTEZ AU PANIER</button>
+					    <div class="box-article col-3">
+                            <div>
+                                <img class="img-article" src="{!! $shop->shop_article_image !!}"></img>
+                                <p class="line-article font-blue bold">{!! $shop->shop_article_name !!}</p>
+                                <p class="line-article font-blue bold">{!! $shop->shop_article_description !!}</p>
+                                <p class="line-article font-blue bold">{!! $shop->shop_article_price !!} € </p>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-submit-cart font-blue-purple white">AJOUTEZ AU PANIER</button>
+                            </div>
                         </div>
 					@endforeach
 				    </div>
