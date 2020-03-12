@@ -43,6 +43,11 @@ h1,h2,h3,h4,h5,h6{
     font-size: 84px;
 }
 
+.title-page{
+    text-align: center;
+    margin: 5% 0;
+}
+
 .links > a {
     color: #636b6f;
     padding: 0 25px;
@@ -82,6 +87,10 @@ a:active{
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /*  ---------- NAVBAR ---------- */
@@ -192,10 +201,41 @@ div.subtitle p{
     margin-top: 20px;
 }
 
-/*  ---------- CONTENT-MENTION LEGAL ---------- */
+/*  ---------- CONTENT-SHOP ---------- */
 
-.article{
+.shop{
+    margin-top: 10%;
+
+}
+
+.box-article{
     background-color: #ffffff;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.img-article{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.img-cart{
+    max-width: 75px;
+    max-height: 75px;
+    text-align: right;
+    color: black;
+
+}
+
+.cart{
+    text-align: right;
+    right: 20px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+.line-article{
+    margin: 30px 0px;
 }
 
 /*  ---------- CONTENT-MENTION LEGAL ---------- */
