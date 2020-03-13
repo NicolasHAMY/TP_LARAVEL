@@ -66,3 +66,11 @@ Route::middleware('auth')->group(function () {
     });
 });
 
+Route::group(['middleware' => ['auth', 'admin']], function(){
+
+        Route::get('/admin', function () {
+         return view('admin');
+});
+
+});
+
