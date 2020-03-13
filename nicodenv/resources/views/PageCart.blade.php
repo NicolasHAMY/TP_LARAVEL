@@ -8,6 +8,6 @@
 							<p class="line-article font-blue bold">{!! $shop->shop_Article_name !!}</p>
 							<p class="line-article font-blue bold">{!! $shop->shop_Article_description !!}</p>
 							<p class="line-article font-blue bold">{!! $shop->shop_Article_price !!}</p>
-    					</div>
+					</div>
 @endforeach
 @endsection
