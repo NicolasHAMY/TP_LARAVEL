@@ -35,15 +35,16 @@
                 <a class="nav-link white" href="{{ url('/register') }}">INSCRIPTION</a>
             </li>
         @else
-            <li class="dropdown nav-item ">
-                <a href="#" class="dropdown-toggle nav-link white uppercase" data-toggle="dropdown" role="button" aria-expanded="false">
-                    {{ Auth::user()->name }} <span class="caret"></span>
+            <li class="nav-item ">
+                <a href="#" class="nav-link white uppercase">
+                    {{ Auth::user()->name }}</span>
                 </a>
             </li>
              <li class="nav-item">
                 <a class="nav-link white" href="{{ url('/logout') }}">DECONNEXION</a>
              </li>
         @endif
+
             </ul>
         </div>
     </nav>
