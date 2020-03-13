@@ -22,7 +22,7 @@
                 <li class="nav-item">
                     <a class="nav-link white" href="{{ url('/contact') }}">CONTACT</a>
                 </li>
-                
+
                 <li class="nav-item">
                     <a class="nav-link white" href="{{ url('/Pageshop') }}">BOUTIQUE</a>
                 </li>
@@ -44,8 +44,6 @@
                 <a class="nav-link white" href="{{ url('/logout') }}">DECONNEXION</a>
              </li>
         @endif
-
-
             </ul>
         </div>
     </nav>
