@@ -26,25 +26,30 @@
                 <li class="nav-item">
                     <a class="nav-link white" href="{{ url('/Pageshop') }}">BOUTIQUE</a>
                 </li>
-
-        @if (Auth::guest())
-            <li class="nav-item active">
-                <a class="nav-link white" href="{{ url('/login') }}">CONNEXION</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link white" href="{{ url('/register') }}">INSCRIPTION</a>
-            </li>
-        @else
-            <li class="nav-item ">
-                <a href="#" class="nav-link white uppercase">
-                    {{ Auth::user()->name }}</span>
-                </a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link white" href="{{ url('/logout') }}">DECONNEXION</a>
-             </li>
-        @endif
-
+                @if (auth()->check())
+                    @if (auth()->user()->admin =="1")
+                      <li class="nav-item">
+                          <a class="nav-link white" href="{{ url('/admin') }}">GESTION ADMIN</a>
+                      </li>
+                    @endif
+                 @endif
+                @if (Auth::guest())
+                    <li class="nav-item active">
+                        <a class="nav-link white" href="{{ url('/login') }}">CONNEXION</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link white" href="{{ url('/register') }}">INSCRIPTION</a>
+                    </li>
+                @else
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link white uppercase">
+                            {{ Auth::user()->name }}</span>
+                        </a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link white" href="{{ url('/logout') }}">DECONNEXION</a>
+                     </li>
+                @endif
             </ul>
         </div>
     </nav>
