@@ -10,5 +10,7 @@ class shop extends Model
 
     public $timestamps = false;
 
-    protected $fillable = ['shop_Article_name','shop_Article_description','shop_Article_price'];
+    protected $primaryKey = 'shop_article_id';
+
+    protected $fillable = ['shop_article_id','shop_article_name','shop_article_description','shop_article_price','shop_article_image'];
 }
