@@ -204,19 +204,21 @@ div.subtitle p{
 /*  ---------- CONTENT-SHOP ---------- */
 
 .shop{
-    margin-top: 10%;
+    margin-top: 0%;
 
 }
 
 .box-article{
+    height: 100%;
     background-color: #ffffff;
     text-align: center;
     padding: 30px 0px;
+    float: left;
 }
 
 .img-article{
-    max-height: 150px;
-    max-width: 150px;
+    max-height: 250px;
+    max-width: 250px;
 }
 
 .img-cart{
@@ -232,10 +234,16 @@ div.subtitle p{
     right: 20px;
     padding-right: 25px;
     padding-top: 25px;
+
 }
 
 .line-article{
     margin: 30px 0px;
+}
+
+.btn-submit-cart{
+    margin: 0 auto;
+    bottom: 50px;
 }
 
 /*  ---------- CONTENT-MENTION LEGAL ---------- */

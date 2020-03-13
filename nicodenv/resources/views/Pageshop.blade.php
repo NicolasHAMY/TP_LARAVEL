@@ -34,6 +34,16 @@
 							    <input type="hidden" name="article_id" value={!! $shop->shop_Article_id !!}>
                                 <button type="submit" class="btn font-blue-purple white">AJOUTEZ AU PANIER</button>
                             </form>
+					    <div class="box-article col-3">
+                            <div>
+                                <img class="img-article" src="{!! $shop->shop_article_image !!}"></img>
+                                <p class="line-article font-blue bold">{!! $shop->shop_article_name !!}</p>
+                                <p class="line-article font-blue bold">{!! $shop->shop_article_description !!}</p>
+                                <p class="line-article font-blue bold">{!! $shop->shop_article_price !!} € </p>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-submit-cart font-blue-purple white">AJOUTEZ AU PANIER</button>
+                            </div>
                         </div>
 					@endforeach
 				    </div>

@@ -14,10 +14,11 @@ class ShopTable extends Migration
     public function up()
     {
         Schema::create('shop', function (Blueprint $table) {
-            $table->bigIncrements('shop_Article_id');
-            $table->string('shop_Article_name');
-            $table->string('shop_Article_description');
-            $table->float('shop_Article_price');
+            $table->bigIncrements('shop_article_id');
+            $table->string('shop_article_name');
+            $table->text('shop_article_description');
+            $table->float('shop_article_price');
+            $table->text('shop_article_image');
         });
     }
 
