@@ -26,7 +26,23 @@ Route::post('contactForm', 'FormController@postForm');
 
 Route::resource('Pageshop','ShopController@__construct');
 
+Route::resource('PageCart','CartController@__construct');
+
 Route::resource('Pageshop','ShopController');
+
+Route::resource('PageCart','CartController');
+
+Route::get('addToCardForm','CartController@addToCart');
+
+Route::get('PageCart','CartController@getCookie');
+
+Route::resource('test','ShopController@__construct');
+
+Route::resource('test','ShopController');
+
+Route::get('/PageCart', function () {
+    return view('PageCart');
+});
 
 Route::get('/contact', function () {
     return view('contact');
