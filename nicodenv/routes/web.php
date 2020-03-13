@@ -36,8 +36,9 @@ Route::get('addToCardForm','CartController@addToCart');
 
 Route::get('PageCart','CartController@getCookie');
 
+Route::resource('test','ShopController@__construct');
 
-
+Route::resource('test','ShopController');
 
 Route::get('/PageCart', function () {
     return view('PageCart');
