@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\shop;
 use App\Repositories\ShopRepository;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use App\Http\Requests;
 
 class ShopController extends Controller
 {
